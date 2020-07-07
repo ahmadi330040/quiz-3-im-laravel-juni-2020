@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('layouts/master');
+    return view('erd');
 });
 
 Route::get('/artikel/create', 'ArtikelController@create'); // menampilkan halaman form
